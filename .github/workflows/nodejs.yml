@@ -22,7 +22,6 @@ jobs:
       - name: npm install, test
         run: |
           make install
-          make build
           make test
         env:
           CI: true
