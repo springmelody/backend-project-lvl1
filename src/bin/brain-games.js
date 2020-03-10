@@ -1,5 +1,5 @@
-#!/usr/bin/env node
+#!/usr/bin/env node;
 
-import run from '../index.js';
+import run from '../cli.js';
 
 run();

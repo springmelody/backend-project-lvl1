@@ -2,7 +2,7 @@
   "name": "js-brain-games",
   "version": "1.0.0",
   "description": "first hexlet js-project brain-games",
-  "main": "src/index.js",
+  "main": "src/cli.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
