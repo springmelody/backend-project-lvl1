@@ -1,12 +1,8 @@
 import playGame from '../engine.js';
+import randomInteger from '../utils.js';
 
 const description = 'What is the result of the expression?';
 const operators = ['+', '-', '*'];
-
-const randomInteger = (min, max) => {
-  const rand = min + Math.random() * (max + 1 - min);
-  return Math.floor(rand);
-};
 
 const getAnswer = (firstOperand, secondOperand, operator) => {
   switch (operator) {

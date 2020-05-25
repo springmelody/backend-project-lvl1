@@ -1,4 +1,5 @@
 import playGame from '../engine.js';
+import randomInteger from '../utils.js';
 
 const description = 'What number is missing in the progression?';
 const lengthProgression = 10;
@@ -10,11 +11,6 @@ const generateArithmeticProgression = (startValue, difference, length) => {
   }
 
   return result;
-};
-
-const randomInteger = (min, max) => {
-  const rand = min + Math.random() * (max + 1 - min);
-  return Math.floor(rand);
 };
 
 const startGame = () => {
