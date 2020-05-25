@@ -11,7 +11,7 @@
 [![asciicast](https://asciinema.org/a/333810.svg)](https://asciinema.org/a/333810)
 
  
-### brain-gcd]
+### brain-gcd
 [![asciicast](https://asciinema.org/a/333812.svg)](https://asciinema.org/a/333812)
 
 
@@ -20,7 +20,7 @@
 
 
 ### brain-prime
-([![asciicast](https://asciinema.org/a/333819.svg)](https://asciinema.org/a/333819)
+[![asciicast](https://asciinema.org/a/333819.svg)](https://asciinema.org/a/333819)
 
 
 ## Установка игры
