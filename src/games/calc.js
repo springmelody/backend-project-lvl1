@@ -8,7 +8,7 @@ const randomInteger = (min, max) => {
   return Math.floor(rand);
 };
 
-function getAnswer(firstOperand, secondOperand, operator) {
+const getAnswer = (firstOperand, secondOperand, operator) => {
   switch (operator) {
     case '+':
       return firstOperand + secondOperand;
@@ -19,7 +19,7 @@ function getAnswer(firstOperand, secondOperand, operator) {
     default:
       throw new Error('This operator is missing');
   }
-}
+};
 
 const startGame = () => {
   const getGameData = () => {
